@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #572dce;
+    position: fixed;
+}
+
+.out{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h1{
+    width: 100%;
+    color: rgba(197, 219, 254, 0.6);
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+}
+img{
+    width: 80%;
+    height: 80%;
+}
+
+.col1{
+    color: rgba(197, 219, 254, 0.6);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.col2{
+    width: 100%;
+    height: 120px;
+}
+#feedback{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 253, 255, 0.486);
+    
+    border: none;
+    border-radius: 4px;
+}
+
+
+button{
+    width: 100%;
+    height: 50px;
+    margin-top: 8%;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    background-color: #f5f10d;
+    color: rgba(87, 122, 192, 0.9);
+}
+
+@media only screen and (max-width: 913px){
+    .out{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    h1{
+        margin-bottom: 10%;
+        font-size: 60px;
+    }
+    label{
+        font-size: 25px;
+    }
+    .imagefeed{
+        transform: scale(1.2);
+    }
+    .col1{
+        margin-top: 6%;
+    }
+    .col2{
+        height: 160px;
+    }
+    .feedback{
+        height: 100%;
+    }
+    button{
+        height: 80px;
+        margin-top: 6%;
+        font-size: 35px;
+    }
+
+}
+
+@media only screen and (max-width: 550px){
+    .out{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    h1{
+        margin-bottom: 10%;
+        font-size: 40px;
+    }
+    label{
+        font-size: 15px;
+    }
+    .imagefeed{
+        transform: scale(1.2);
+    }
+    .col1{
+        margin-top: 6%;
+    }
+    .col2{
+        height: 120px;
+    }
+    .feedback{
+        height: 100%;
+    }
+    button{
+        height: 50px;
+        margin-top: 6%;
+        font-size: 22px;
+    }
+}
+
